@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Days 1-5 and start of 6">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01/day01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/day02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02/day02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03/day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03/day03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04/day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04/day04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day05/day05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/day06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day06/day06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01/META-INF/day01.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/META-INF/day01.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02/META-INF/day02.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/META-INF/day02.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03$part1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03$part1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03$part2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03$part2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day03/META-INF/day03.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/META-INF/day03.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day04/Day04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day04/Day04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/src/Day06.kt" beforeDir="false" afterPath="$PROJECT_DIR$/day06/src/Day06.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/simon/IdeaProjects/aoc2018&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/simon/IdeaProjects/aoc2018",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Kotlin.Day06Kt">
     <configuration name="Day02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day02Kt" />
@@ -162,6 +141,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -1,91 +1,103 @@
 import java.io.File
 import kotlin.math.absoluteValue
 
+data class Point(val x: Int, val y: Int) {
+    fun manhattan(other: Point): Int {
+        return (other.x - x).absoluteValue + (other.y - y).absoluteValue
+    }
+}
+
 class Day06(path: String) {
-    private val points = mutableListOf<Pair<Int, Int>>()
+    private val coords = mutableListOf<Point>()
     private val counts = mutableListOf<Int>()
-    private var minX = 999999
-    private var minY = 999999
+    private var minX = Int.MAX_VALUE
+    private var minY = Int.MAX_VALUE
     private var maxX = 0
     private var maxY = 0
     private val size = 360
     private val map = CharArray(size * size) { '.' }
-    private val distance = IntArray(size * size) { 999999 }
+    private val distance = IntArray(size * size) { Int.MAX_VALUE }
 
     init {
         File(path).forEachLine {
-            val values = it.split(',')
-            val point = Pair(values[0].trim().toInt(), values[1].trim().toInt())
-            if (point.first < minX) {
-                minX = point.first
-            } else if (point.first > maxX) {
-                maxX = point.first
+            val values = it.split(", ")
+            val p = Point(values[0].toInt(), values[1].toInt())
+            if (p.x < minX) {
+                minX = p.x
+            } else if (p.x > maxX) {
+                maxX = p.x
             }
-            if (point.second < minY) {
-                minY = point.second
-            } else if (point.second > maxY) {
-                maxY = point.second
+            if (p.y < minY) {
+                minY = p.y
+            } else if (p.y > maxY) {
+                maxY = p.y
             }
-            points.add(point)
+            coords.add(p)
             counts.add(0)
         }
     }
 
-    private fun getMapAt(x: Int, y: Int): Char {
-        return map[y * size + x]
+    private fun getMapAt(p: Point): Char {
+        return map[p.y * size + p.x]
     }
 
-    private fun setMapAt(x: Int, y: Int, value: Char) {
-        map[y * size + x] = value
+    private fun setMapAt(p: Point, value: Char) {
+        map[p.y * size + p.x] = value
     }
 
-    private fun getDistanceAt(x: Int, y: Int): Int {
-        return distance[y * size + x]
+    private fun getDistanceAt(p: Point): Int {
+        return distance[p.y * size + p.x]
     }
 
-    private fun setDistanceAt(x: Int, y: Int, value: Int) {
-        distance[y * size + x] = value
+    private fun setDistanceAt(p: Point, value: Int) {
+        distance[p.y * size + p.x] = value
     }
 
-    private fun printMap(w: Int, h: Int) {
-        for (i in 0 until h) {
-            for (j in 0 until w) {
-                print(getMapAt(j, i))
+    private fun printMap() {
+        for (i in minY..maxY) {
+            for (j in minX..maxX) {
+                print(getMapAt(Point(j, i)))
             }
             println()
         }
     }
 
-    private fun manhattanDistance(fromX: Int, fromY: Int, toX: Int, toY: Int): Int {
-        return (toX - fromX).absoluteValue + (toY - fromY).absoluteValue
-    }
-
     fun part1(): Int {
         for (x in minX..maxX) {
             for (y in minY..maxY) {
-                points.forEachIndexed { index, p ->
-                    //setMapAt(p.first, p.second, 'A' + index)
-                    //if (p.first != x || p.second != y) {
-                        val distance = manhattanDistance(p.first, p.second, x, y)
-                        if (distance < getDistanceAt(x, y)) {
-                            setDistanceAt(x, y, distance)
-                            setMapAt(x, y, 'a' + index)
-                        } else if (distance == getDistanceAt(x, y)) {
-                            setMapAt(x, y, '.') // dupe
-                        }
-                    //}
+                coords.forEachIndexed { index, coord ->
+                    val location = Point(x, y)
+                    val dist = coord.manhattan(location)
+
+                    if (dist < getDistanceAt(location)) {
+                        setDistanceAt(location, dist)
+                        setMapAt(location, 'A' + index)
+                    } else if (dist == getDistanceAt(location)) {
+                        setMapAt(location, '.') // dupe
+                    }
                 }
             }
         }
-        printMap(10, 10)
+
+        // Go around edges and remove anything there (they are infinite)
+        val exclude = mutableSetOf<Char>()
+        for (x in minX..maxX) {
+            exclude.add(getMapAt(Point(x, minY)))
+            exclude.add(getMapAt(Point(x, maxY)))
+        }
+        for (y in minY..maxY) {
+            exclude.add(getMapAt(Point(minX, y)))
+            exclude.add(getMapAt(Point(maxX, y)))
+        }
 
         // count occurrences in map
         var max = 0
-        for (p in points.indices) {
+        for (p in coords.indices) {
             var count = 0
             for (x in minX..maxX) {
                 for (y in minY..maxY) {
-                    if ('a' + p == getMapAt(x, y)) {
+                    val c = 'A' + p
+                    if (c !in exclude && (c == getMapAt(Point(x, y)))) {
                         count++
                     }
                 }
@@ -96,12 +108,26 @@ class Day06(path: String) {
         }
 
         return max
-
-        // 4503 is too high
     }
 
     fun part2(): Int {
-        return 0
+        val limit = 10000
+        var count = 0
+
+        for (x in minX..maxX) {
+            for (y in minY..maxY) {
+                var sum = 0
+                coords.forEachIndexed { index, coord ->
+                    val location = Point(x, y)
+                    sum += coord.manhattan(location)
+                }
+                if (sum < limit) {
+                    count++
+                }
+            }
+        }
+
+        return count
     }
 }
 
