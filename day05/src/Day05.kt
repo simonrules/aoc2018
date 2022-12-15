@@ -1,5 +1,6 @@
 import java.io.File
 
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 class Day05(path: String) {
     private val originalList = mutableListOf<Char>()
     private var list = mutableListOf<Char>()

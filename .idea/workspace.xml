@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Days 1-5 and start of 6">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01/day01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/day02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02/day02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03/day03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04/day04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day05/day05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/day06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day06/day06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day01/Day01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/Day01Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day01/META-INF/day01.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01/META-INF/day01.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02/Day02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/Day02Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02/META-INF/day02.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02/META-INF/day02.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03$part1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03$part1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03$part2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03$part2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03/Day03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/Day03Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03/META-INF/day03.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03/META-INF/day03.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day04/Day04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day04/Day04.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AdventOfCode2018" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IxP6oDXsaJFYGgDAje4ROYJYO6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/simon/IdeaProjects/aoc2018&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Kotlin.Day06Kt">
+    <configuration name="Day02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day02Kt" />
+      <module name="day02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day03Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day03Kt" />
+      <module name="day03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day04Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04Kt" />
+      <module name="day04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day05Kt" />
+      <module name="day05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day06Kt" />
+      <module name="day06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="day01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="day01" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Day06Kt" />
+        <item itemvalue="Kotlin.Day05Kt" />
+        <item itemvalue="Kotlin.Day04Kt" />
+        <item itemvalue="Kotlin.Day03Kt" />
+        <item itemvalue="Kotlin.Day02Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="" />
+      <created>1671120088987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671120088987</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Days 1-5 and start of 6">
+      <created>1671120300150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671120300150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Days 1-5 and start of 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Days 1-5 and start of 6" />
+  </component>
+</project>
