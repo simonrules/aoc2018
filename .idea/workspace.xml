@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Days 1-5 and start of 6">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07/day07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07/src/Day07.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08/day08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08/src/Day08.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09/day09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09/src/Day09.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day06/Day06$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06/Day06$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day06/Day06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06/Day06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day06/Day06Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06/Day06Kt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,32 +75,19 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day08" />
       <recent name="$PROJECT_DIR$/day07" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day06Kt">
-    <configuration name="Day03Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03Kt" />
-      <module name="day03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day04Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04Kt" />
-      <module name="day04" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day05Kt" />
-      <module name="day05" />
+  <component name="RunManager" selected="Kotlin.Day08Kt">
+    <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day01Kt" />
+      <module name="day01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +102,20 @@
     <configuration name="Day07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day07Kt" />
       <module name="day07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08Kt" />
+      <module name="day08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day09Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day09Kt" />
+      <module name="day09" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day06Kt" />
+        <item itemvalue="Kotlin.Day08Kt" />
+        <item itemvalue="Kotlin.Day09Kt" />
+        <item itemvalue="Kotlin.Day01Kt" />
         <item itemvalue="Kotlin.Day07Kt" />
-        <item itemvalue="Kotlin.Day05Kt" />
-        <item itemvalue="Kotlin.Day04Kt" />
-        <item itemvalue="Kotlin.Day03Kt" />
+        <item itemvalue="Kotlin.Day06Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +185,14 @@
           <url>file://$PROJECT_DIR$/day07/src/Day07.kt</url>
           <line>29</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/day08/src/Day08.kt</url>
+          <line>51</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
