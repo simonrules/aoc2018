@@ -1,8 +1,27 @@
 import java.io.File
+import java.util.*
 
 class Day09(input: String) {
     private val players: Int
     private val lastMarble: Int
+
+    class CircularLinkedList<T> : LinkedList<T>() {
+        init {
+
+        }
+
+        fun rotate(positions: Int) {
+            if (positions >= 0) {
+                repeat(positions) {
+                    this.addLast(this.removeFirst())
+                }
+            } else {
+                repeat(-positions) {
+                    this.addFirst(this.removeLast())
+                }
+            }
+        }
+    }
 
     init {
         val line = File(input).readLines()[0]
@@ -12,45 +31,33 @@ class Day09(input: String) {
     }
 
     private fun result(lastMarbleValue: Int): Long {
-        val list = mutableListOf<Int>()
+        val list = CircularLinkedList<Int>()
         val scores = Array(players + 1) { 0L }
 
         list.add(0)
-        var currentIndex = 0
         var player = 1
         for (m in 1..lastMarbleValue) {
             if (m % 23 == 0) {
-                // Add to player's score
-                scores[player] += m.toLong()
-
                 // Remove marble 7 before current and add to score
-                var removeIndex = currentIndex - 7
-                if (removeIndex < 0) {
-                    removeIndex += list.size
-                }
-                scores[player] += list[removeIndex].toLong()
-                list.removeAt(removeIndex)
+                list.rotate(-7)
 
-                // Assign next marble
-                currentIndex = removeIndex
+                // Add to player's score and remove marble
+                scores[player] += m.toLong() + list.removeFirst()
             } else {
                 // Add marble between marbles 1 and 2 positions clockwise of current
-                currentIndex = (currentIndex + 1) % list.size + 1
-                list.add(currentIndex, m)
+                list.rotate(2)
+                list.addFirst(m)
             }
             /*print("[$player] ")
-            list.forEachIndexed { index, item ->
-                if (index == currentIndex) {
-                    print("($item) ")
-                } else {
-                    print("$item ")
-                }
+            list.forEach { item ->
+                print("$item ")
             }
             println()*/
             player++
             if (player > players) {
                 player = 1
             }
+
         }
 
         return scores.maxOf { it }
@@ -68,6 +75,5 @@ class Day09(input: String) {
 fun main() {
     val aoc = Day09("day09/input.txt")
     println(aoc.part1())
-    // 1065924 too low
     println(aoc.part2())
 }
