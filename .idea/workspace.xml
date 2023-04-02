@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Day 9 partial solution">
+    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Days 1-5 and start of 6">
+      <change afterPath="$PROJECT_DIR$/day10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/src/Day10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/src/Day09.kt" beforeDir="false" afterPath="$PROJECT_DIR$/day09/src/Day09.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day09/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,7 @@
   </component>
   <component name="ProjectId" id="2IxP6oDXsaJFYGgDAje4ROYJYO6" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,7 +77,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.kotlinCompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,21 +85,15 @@
       <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day10" />
       <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day08" />
       <recent name="$PROJECT_DIR$/day07" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day09Kt">
+  <component name="RunManager" selected="Kotlin.Day10Kt">
     <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01Kt" />
       <module name="day01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day06Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06Kt" />
-      <module name="day06" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day10Kt" />
+      <module name="day10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="day01" />
       <method v="2">
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day09Kt" />
         <item itemvalue="Kotlin.Day08Kt" />
         <item itemvalue="Kotlin.Day01Kt" />
         <item itemvalue="Kotlin.Day07Kt" />
-        <item itemvalue="Kotlin.Day06Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -210,12 +216,11 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/day09/src/Day09.kt</url>
-          <line>48</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
