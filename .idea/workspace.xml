@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Days 1-5 and start of 6">
-      <change afterPath="$PROJECT_DIR$/day10/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/src/Day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Day 10 solution">
+      <change afterPath="$PROJECT_DIR$/day10/day10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/src/Day11.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,23 +62,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/Simon/IdeaProjects/aoc2018/day09",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.kotlinCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Simon/IdeaProjects/aoc2018/day09&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day09" />
@@ -90,17 +89,10 @@
       <recent name="$PROJECT_DIR$/day07" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day10Kt">
+  <component name="RunManager" selected="Kotlin.Day11Kt">
     <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01Kt" />
       <module name="day01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07Kt" />
-      <module name="day07" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11Kt" />
+      <module name="day11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="day01" />
       <method v="2">
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day09Kt" />
         <item itemvalue="Kotlin.Day08Kt" />
         <item itemvalue="Kotlin.Day01Kt" />
-        <item itemvalue="Kotlin.Day07Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680300525983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 10 solution">
+      <created>1680456675153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680456675153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +204,8 @@
     <MESSAGE value="Days 1-5 and start of 6" />
     <MESSAGE value="Day 8 solution" />
     <MESSAGE value="Day 9 partial solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 9 partial solution" />
+    <MESSAGE value="Day 10 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 10 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
