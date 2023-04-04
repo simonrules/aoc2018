@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Day 10 solution">
-      <change afterPath="$PROJECT_DIR$/day10/day10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/day11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/src/Day11.kt" afterDir="false" />
+    <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Day 11 solution">
+      <change afterPath="$PROJECT_DIR$/day12/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/day12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/Day12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -84,19 +85,13 @@
       <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day12" />
       <recent name="$PROJECT_DIR$/day10" />
       <recent name="C:\Users\Simon\IdeaProjects\aoc2018\day08" />
       <recent name="$PROJECT_DIR$/day07" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day11Kt">
-    <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day01Kt" />
-      <module name="day01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day12Kt">
     <configuration name="Day08Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day08Kt" />
       <module name="day08" />
@@ -125,6 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12Kt" />
+      <module name="day12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="day01" />
       <method v="2">
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day12Kt" />
         <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day09Kt" />
         <item itemvalue="Kotlin.Day08Kt" />
-        <item itemvalue="Kotlin.Day01Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680456675153</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 11 solution">
+      <created>1680481734705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680481734705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +214,8 @@
     <MESSAGE value="Day 8 solution" />
     <MESSAGE value="Day 9 partial solution" />
     <MESSAGE value="Day 10 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 10 solution" />
+    <MESSAGE value="Day 11 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 11 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +232,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/day12/src/Day12.kt</url>
+          <line>93</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
