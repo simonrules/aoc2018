@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc87f47e-36f6-49e2-b98f-d5322c5b4f5e" name="Changes" comment="Day 12 solution">
-      <change afterPath="$PROJECT_DIR$/day13/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/day13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/src/Day13.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/src/Day13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/day13/src/Day13.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day13/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +52,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2IxP6oDXsaJFYGgDAje4ROYJYO6" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -241,6 +242,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/day13/src/Day13.kt</url>
+          <line>75</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
